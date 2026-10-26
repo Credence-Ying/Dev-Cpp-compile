@@ -1,0 +1,10 @@
+# 编译产物，不上传
+*.exe
+*.o
+*.obj
+*.out
+
+# IDE 配置，不上传
+.idea/
+.vscode/
+cmake-build-*/
