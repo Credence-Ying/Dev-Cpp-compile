@@ -8,7 +8,7 @@ int ans[15];      // ans[x] = y -> the queen is on (x,y)
 bool col[15];     // set the queen row by row so we only have to tag the column(col)
 bool diag1[30];   // the same (x+y) is on the same diagonal1 row
 bool diag2[30];   // the same (x-y+n) is on the same diagonal2 row
-int cnt = 0;      // the number of the answers这里能够显示中文
+int cnt = 0;      // the number of the answers
 
 void dfs(int k)
 {
